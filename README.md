@@ -9,6 +9,9 @@ docker-compose up -d
 
 ### Start App
 ```bash
+#1 Database: Migrations
+php artisan migrate
+#2 Run Server
 php artisan serve
 ```
 
